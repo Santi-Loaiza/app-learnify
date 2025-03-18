@@ -1,0 +1,63 @@
+.side-menu {
+  position: relative;
+
+}
+
+.open-btn {
+  background-color: #0c0c0c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.menu-lateral {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100vh;
+  background-color: #0c0c0c;
+  color: white;
+  transition: left 0.3s ease-in-out;
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-lateral.open {
+  left: 0;
+}
+
+.menu-lateral ul {
+  height: 70vh;
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.menu-lateral li {
+  padding: 10px 20px;
+  font-size: 1.2 rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.menu-lateral li:hover {
+  color: rgb(170, 98, 158);
+}
+
+.logo {
+  width: 170px;
+  margin-bottom: 10px;
+}

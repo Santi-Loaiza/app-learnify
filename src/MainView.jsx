@@ -1,7 +1,9 @@
+import SideMenu from "./SideMenu"
+
 const MainView = () => {
     return(
         <section>
-            
+            <SideMenu />
         </section>
     )
 }
