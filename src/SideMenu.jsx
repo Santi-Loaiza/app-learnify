@@ -23,7 +23,8 @@ const SideMenu = () => {
           <li>Beneficios</li>
           <li>Becas</li>
         </ul>
-      </div>
+        <img src="./logo.png" alt="Logo" className="logo" />
+        </div>
     </div>
   );
 };
