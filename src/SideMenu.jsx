@@ -10,11 +10,8 @@ const SideMenu = () => {
 
   return (
     <div className="side-menu">
-      <button className="open-btn" onClick={toggleMenu}>
-        {isOpen ? 'Cerrar Menú' : 'Abrir Menú'}
-      </button>
 
-      <div className={`menu-lateral ${isOpen ? 'open' : ''}`}>
+      <div className="menu-lateral">
         <ul>
           <li>Clases</li>
           <li>Notas</li>
