@@ -1,0 +1,12 @@
+.main-content{
+    display: flex;
+    justify-content: center;
+}
+.main-content .carrusel{
+    width: 98%;
+    background-color: #CAFFBF;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
