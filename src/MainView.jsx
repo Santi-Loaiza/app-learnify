@@ -5,9 +5,9 @@ import SideMenu from "./SideMenu"
 
 const MainView = () => {
     return(
-        <section>
-            <MainContent />
+        <section className="main-container">
             <SideMenu />
+            <MainContent />
         </section>
     )
 }

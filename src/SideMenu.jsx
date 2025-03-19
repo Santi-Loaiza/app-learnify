@@ -2,12 +2,6 @@ import React, { useState } from 'react';
 import './SideMenu.css';
 
 const SideMenu = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
     <div className="side-menu">
 

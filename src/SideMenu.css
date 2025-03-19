@@ -1,12 +1,13 @@
 .side-menu {
   position: relative;
-
+  width: 20vw;
+  height: 100vh;
 }
 
 .menu-lateral {
   position: fixed;
   top: 0;
-  width: 250px;
+  width: 20vw;
   height: 100vh;
   background-color: #0c0c0c;
   color: white;
