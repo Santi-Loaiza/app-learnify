@@ -1,15 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
 .footer {
     background: linear-gradient(to right, #FFADAD, #FFD6A5, #FDFFB6, #CAFFBF, #9BF6FF, #A0C4FF, #BDB2FF, #FFC6FF);
     color: #1e1e1e;
     padding: 40px 20px;
     text-align: center;
+    margin-top: 120px;
 }
 
 .footer-container {
