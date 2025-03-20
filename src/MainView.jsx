@@ -1,4 +1,3 @@
-
 import MainContent from "./MainContent"
 import SideMenu from "./SideMenu"
 
@@ -8,6 +7,7 @@ const MainView = () => {
         <section className="main-container">
             <SideMenu />
             <MainContent />
+            <Footer />
         </section>
     )
 }
