@@ -1,5 +1,7 @@
 import Logo from '../public/LearnifyLogos/Ilustración_sin_título.png'
 import LogoFacebook from '../public/FooterIMGs/facebook.png'
+import Logoinsta from '../public/FooterIMGs/instagram.png'
+import LogoX from '../public/FooterIMGs/twitter.png'
 import LogoSnap from '../public/FooterIMGs/Social.png'
 
 const Footer = () => {
@@ -25,21 +27,19 @@ const Footer = () => {
             <div class="footer-social">
                 <h3>Síguenos</h3>
                 <div class="social-icons">
-                    <a href="#">Feisbu<img src={LogoFacebook} alt="" /></a>
-                    <a href="#">Snap <img src={LogoSnap} alt="" /></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
+                    <a href="#"><img src={LogoFacebook} alt="" /></a>
+                    <a href="#"><img src={LogoSnap} alt="" /></a>
+                    <a href="#"><img src={Logoinsta} alt="" ></img></a>
+                    <a href="#"><img src={LogoX} alt=""  /></a>
                 </div>
             </div>
         </div>
     
         <div class="footer-bottom">
-            <p>© <span id="year"></span> Trello Clone - Todos los derechos reservados</p>
+            <p>© <span id="year"></span> LearnifyAPP - Todos los derechos reservados 2025 ®️</p>
         </div>
     
-        <script>
-            document.getElementById("year").textContent = new Date().getFullYear();
-        </script>
+        
     </footer>
     
     )
