@@ -1,8 +1,9 @@
-import Logo from '../public/LearnifyLogos/Ilustración_sin_título.png'
-import LogoFacebook from '../public/FooterIMGs/facebook.png'
-import Logoinsta from '../public/FooterIMGs/instagram.png'
-import LogoX from '../public/FooterIMGs/twitter.png'
-import LogoSnap from '../public/FooterIMGs/Social.png'
+import Logo from '../../../public/LearnifyLogos/Ilustración_sin_título.png'
+import LogoFacebook from '../../../public/FooterIMGs/facebook.png'
+import Logoinsta from '../../../public/FooterIMGs/instagram.png'
+import LogoX from '../../../public/FooterIMGs/twitter.png'
+import LogoSnap from '../../../public/FooterIMGs/Social.png'
+import '../Footer/Footer.css'
 
 const Footer = () => {
     return (

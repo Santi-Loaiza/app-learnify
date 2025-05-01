@@ -1,13 +1,7 @@
-.side-menu {
-  position: relative;
-  width: 20vw;
-  height: 100vh;
-}
-
 .menu-lateral {
   position: fixed;
   top: 0;
-  width: 20vw;
+  width: 18vw;
   height: 100vh;
   background-color: #0c0c0c;
   color: white;
@@ -44,6 +38,6 @@
 }
 
 .logo {
-  width: 170px;
+  width: 160px;
   margin-bottom: 10px;
 }

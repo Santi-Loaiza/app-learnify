@@ -1,6 +1,6 @@
-import './MainContent.css'
-import upArrowImageIcon from '../public/upArrowImageIcon.svg'
-import mindfullnessIcon from '../public/mindfullnessIcon.svg'
+import '../MainContent/MainContent.css'
+import upArrowImageIcon from '/upArrowImageIcon.svg'
+import mindfullnessIcon from '/mindfullnessIcon.svg'
 const MainContent = () => {
     return (
         <section className="main-content">

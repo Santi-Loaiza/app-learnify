@@ -6,7 +6,3 @@
 body{
   font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-.main-container{
-  display: flex;
-  justify-content: space-between;
-}

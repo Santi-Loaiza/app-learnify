@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './SideMenu.css';
+import '../SideMenu/SideMenu.css';
 
 const SideMenu = () => {
   return (
@@ -12,7 +12,6 @@ const SideMenu = () => {
           <li>Matrículas</li>
           <li>Bienestar</li>
           <li>Beneficios</li>
-          <li>Becas</li>
         </ul>
         <img src="./logo.png" alt="Logo" className="logo" />
         </div>

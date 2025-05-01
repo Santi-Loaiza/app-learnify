@@ -1,8 +1,8 @@
-import Footer from "./Footer"
-import MainContent from "./MainContent"
-import SideMenu from "./SideMenu"
-import Header from "./Header"
-
+import Header from "../../components/Header/Header"
+import MainContent from "../../components/MainContent/MainContent"
+import SideMenu from "../../components/SideMenu/SideMenu"
+import Footer from "../../components/Footer/Footer"
+import '../MainView/MainView.css'
 
 const MainView = () => {
     return(

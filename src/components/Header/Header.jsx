@@ -1,5 +1,5 @@
-import './Header.css'
-import logo from '/public/LearnifyLogos/Ilustración_sin_título.png'
+import '../Header/Header.css'
+import logo from '/LearnifyLogos/Ilustración_sin_título.png'
 const Header = () => {
     return (
         <header>
