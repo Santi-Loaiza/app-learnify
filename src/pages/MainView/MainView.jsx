@@ -3,12 +3,14 @@ import MainContent from "../../components/MainContent/MainContent"
 import SideMenu from "../../components/SideMenu/SideMenu"
 import Footer from "../../components/Footer/Footer"
 import '../MainView/MainView.css'
+import { useNavigate } from "react-router-dom"
 
 const MainView = () => {
+    let navigate = useNavigate()
     return(
         <section className="main-container">
             <SideMenu />
-            <section>
+            <section className="main-container-content">
                 <Header />
                  <MainContent />
                  <Footer />

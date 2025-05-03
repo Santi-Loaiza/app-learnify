@@ -1,0 +1,120 @@
+.form-container-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    --color: rgba(43, 42, 42, 0.3);
+    background-color: #b6b5c3;
+    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+    background-size: 55px 55px;
+  
+}
+.form-box {
+    max-width: 300px;
+    background: #f1f7fe;
+    overflow: hidden;
+    border-radius: 16px;
+    color: #010101;
+  }
+  
+  .form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px 24px;
+    gap: 16px;
+    text-align: center;
+  }
+  
+  /*Form text*/
+  .title {
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /*Inputs box*/
+  .form-container {
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 1rem 0 .5rem;
+    width: 100%;
+  }
+  
+  .input {
+    background: none;
+    border: 0;
+    outline: 0;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    font-size: .9rem;
+    padding: 8px 15px;
+  }
+  
+  .form-section {
+    padding: 16px;
+    font-size: .85rem;
+    background-color: #e0ecfb;
+    box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+  }
+  
+  .form-section a {
+    font-weight: bold;
+    transition: color .3s ease;
+  }
+  
+  .form-section a:hover {
+    color: #BDB2FF;
+    text-decoration: underline;
+  }
+  
+  /*Button*/
+  .form button {
+    background-color: #BDB2FF;
+    color: black;
+    border: 0;
+    border-radius: 24px;
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .5s ease;
+  }
+  
+  .form button:hover {
+    background-color: black;
+    color: white;
+  }
+  .form .input-with-label{
+    display: flex;
+    background: none;
+    border: 0;
+    outline: 0;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    font-size: .9rem;
+    padding: 8px 15px;
+  }
+  .form .input-with-label label {
+    font-size: .8rem;
+    color: #666;
+    text-align: start;
+  }
+  input[type="date"]{
+    background-color: #BDB2FF;
+    padding: 5px;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
