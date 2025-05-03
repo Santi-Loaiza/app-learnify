@@ -8,6 +8,6 @@ import { enrutador } from '../router/enrutador'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={createBrowserRouter(enrutador)}/>
+    <RouterProvider router={createBrowserRouter(enrutador)} />
   </StrictMode>,
 )
