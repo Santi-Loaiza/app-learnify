@@ -1,12 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './MainView/MainView.css'
-import MainView from './MainView/MainView'
 import './index.css'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { enrutador } from '../router/enrutador'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <MainView />
+    <RouterProvider router={createBrowserRouter(enrutador)}/>
   </StrictMode>,
 )

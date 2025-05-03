@@ -1,0 +1,89 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "tipo_usuario": "administrador",
+      "nombre": "Santiago Loaiza Madrid",
+      "usuario": "admin1",
+      "contrasena": "admin1",
+      "datos_personales": {
+        "fecha_nacimiento": "21-01-2006",
+        "direccion": "calle 3 #41 63",
+        "telefono": "302 7982156"
+      }
+    },
+    {
+      "id": "2",
+      "tipoUsuario": "administrador",
+      "nombre": "Ximena Martinez Soto",
+      "usuario": "admin2",
+      "contrasena": "admin2",
+      "datos_personales": {
+        "fecha_nacimiento": "20-05-2005",
+        "direccion": "calle 10C #40 53",
+        "telefono": "312 5983146"
+      }
+    },
+    {
+      "id": "3",
+      "tipoUsuario": "administrador",
+      "nombre": "Mariana Osorio Granado",
+      "usuario": "admin3",
+      "contrasena": "admin3",
+      "datos_personales": {
+        "fecha_nacimiento": "11-11-2007",
+        "direccion": "calle 7B #20 62",
+        "telefono": "301 7983154"
+      }
+    },
+    {
+      "id": "4",
+      "tipoUsuario": "administrador",
+      "nombre": "Juan Carlos Caro Muriel",
+      "usuario": "admin4",
+      "contrasena": "admin4",
+      "datos_personales": {
+        "fecha_nacimiento": "01-04-1999",
+        "direccion": "calle 21 #31 53",
+        "telefono": "318 7282146"
+      }
+    },
+    {
+      "id": "5",
+      "tipoUsuario": "estudiante",
+      "nombre": "Carlos Penagos",
+      "usuario": "estudiante1",
+      "contrasena": "estudiante1",
+      "datos_personales": {
+        "fecha_nacimiento": "20-06-2008",
+        "direccion": "calle 2 #11 43",
+        "telefono": "323 7482556"
+      }
+    },
+    {
+      "id": "f546",
+      "tipoUsuario": "estudiante",
+      "nombre": "Camilo Barrientos",
+      "usuario": "camibarrientos",
+      "contrasena": "cami123",
+      "datos_personales": {
+        "fecha_nacimiento": "2003-07-11",
+        "direccion": "calle 33 # 42 33",
+        "telefono": "307 7859568"
+      }
+    },
+    {
+      "id": "941c",
+      "tipoUsuario": "",
+      "nombre": "juan Carlos",
+      "usuario": "Juanca1925",
+      "contrasena": "teamobb",
+      "datos_personales": {
+        "fecha_nacimiento": "1999-09-25",
+        "direccion": "calle 1 # 53 40",
+        "telefono": "3147173871"
+      }
+    }
+  ],
+  "materias": []
+}
