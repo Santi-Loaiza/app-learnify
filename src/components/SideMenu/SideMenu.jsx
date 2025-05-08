@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../SideMenu/SideMenu.css';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { alertaRedireccion } from '../../helpers/funciones';
 
 const SideMenu = () => {
@@ -15,7 +15,7 @@ const SideMenu = () => {
     <div className="side-menu">
       <div className="menu-lateral">
         <ul>
-          <li><button><span>Clases</span></button></li>
+          <Link to="/clases"><li><button><span>Clases</span></button></li></Link> 
           <li><button><span>Notas</span></button></li>
           <li><button><span>Matrículas</span></button></li>
           <li><button><span>Bienestar</span></button></li>

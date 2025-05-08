@@ -85,5 +85,54 @@
       }
     }
   ],
-  "materias": []
+  "materias": [
+      {
+        "nombre": "Matematicas",
+        "docente": "Miguel Angel Aristizabal",
+        "aula": "201",
+        "progreso": 25,
+        "color": "#FFADAD",
+        "imagen": "https://cdn.pixabay.com/photo/2016/11/29/01/16/abacus-1866497_1280.jpg"
+      },
+      {
+        "nombre": "Lengua Castellana",
+        "docente": "Jorge Castillon",
+        "aula": "104",
+        "progreso": 50,
+        "color": "#dee08d",
+        "imagen": "https://cdn.pixabay.com/photo/2024/02/24/20/54/books-8594725_1280.jpg"
+      },
+      {
+        "nombre": "Sociales",
+        "docente": "Martha Cristina Lopez",
+        "aula": "203",
+        "progreso": 10,
+        "color": "#84c3e0",
+        "imagen": "https://cdn.pixabay.com/photo/2019/10/21/12/01/newspapers-4565916_1280.jpg"
+      },
+      {
+        "nombre": "Ingles",
+        "docente": "Marcela Marroquin",
+        "aula": "202",
+        "progreso": 75,
+        "color": "#BDB2FF",
+        "imagen": "https://cdn.pixabay.com/photo/2024/01/18/10/37/letter-tiles-8516698_1280.jpg"
+      },
+      {
+        "nombre": "Biologia",
+        "docente": "Doris Quinto",
+        "aula": "102",
+        "progreso": 20,
+        "color": "#a0c997",
+        "imagen": "https://cdn.pixabay.com/photo/2018/03/30/04/54/leaf-3274378_1280.jpg"
+      },
+      {
+        "nombre": "Filosofia",
+        "docente": "Andres Ciro",
+        "aula": "103",
+        "progreso": 5,
+        "color": "gray",
+        "imagen": "https://cdn.pixabay.com/photo/2015/05/07/15/48/bustos-756620_1280.jpg"
+      }
+  ]
 }
