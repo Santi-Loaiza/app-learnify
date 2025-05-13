@@ -17,7 +17,7 @@ const SideMenu = () => {
         <ul>
           <Link to="/clases"><li><button><span>Clases</span></button></li></Link> 
           <li><button><span>Notas</span></button></li>
-          <li><button><span>Matrículas</span></button></li>
+          <Link to="/matriculas"><li><button><span>Matrícula</span></button></li></Link>
           <li><button><span>Bienestar</span></button></li>
           <li><button><span>Beneficios</span></button></li>
           <button onClick={cerrarSesion} className='cerrar-sesion-button'><span>Cerrar sesion</span>

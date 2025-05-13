@@ -3,6 +3,7 @@ import RutaProtegida from "../components/RutaProtegida";
 import InicioSesion from "../pages/InicioSesion/InicioSesion";
 import MainView from "../pages/MainView/MainView";
 import Registro from "../pages/Registro/Registro";
+import Matriculas from "../pages/Matriculas/Matriculas";
 
 export let enrutador = [
     {
@@ -20,5 +21,9 @@ export let enrutador = [
     {
         path: "/registro",
         element: <Registro />
+    },
+    {
+        path: "/matriculas",
+        element: <Matriculas/>
     }
 ]
