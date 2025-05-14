@@ -1,4 +1,4 @@
-# 📖 APP-Learnufy X
+# 📖 APP-Learnify
 
 **APP-Learnify** Es una aplicacion web educativa enfocada al aprendizaje virtual con el objetivo de facilitar la comunicación y el manejo de material educativo entre docentes y estudiantes.
 
@@ -16,8 +16,7 @@ Ideal para los instituciones educativas que requieran un area administrativa y c
 
 - **React JS** – Biblioteca principal para la interfaz de usuario  
 - **JSON-Server** – Simulación de API REST con datos en formato JSON  
-- **React Router DOM** – Ruteo dinámico entre vistas  
-- **Axios** – Cliente HTTP para conectar con la API  
+- **React Router DOM** – Ruteo dinámico entre vistas   
 - **Fetch API** – Alternativa para peticiones HTTP  
 - **SweetAlert2** – Alertas modernas y estilizadas  
 - **Font Awesome** – Iconografía para una interfaz más visual  
@@ -79,7 +78,7 @@ cd app-learnify
 npm install
 
 # 3. Inicia el servidor JSON (backend simulado)
-npx json-server --watch db.json --port 3000
+npm run back
 
 # 4. En una nueva terminal, inicia el frontend con Vite
 npm run dev
