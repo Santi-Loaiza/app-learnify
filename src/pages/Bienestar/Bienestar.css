@@ -1,0 +1,166 @@
+.main-container-bienestar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 30px;
+    background-color: #f3f4f6;
+}
+.bienestar-main-title{
+    font-family: sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+}
+.main-container-bienestar .main-container-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.388)
+}
+.main-container-info .first-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 25px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.container-bienestar-list{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+.container-bienestar-list h3{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.container-bienestar-list ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.container-bienestar-list ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 2px;
+    width: 48%;
+}
+.container-bienestar-list ul .list-item1{
+    background-color: #FFADAD;
+}
+.container-bienestar-list ul .list-item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-bienestar-list ul .list-item-container p{
+    max-width: 70%;
+}
+.list-item-container .academic-cap-icon{
+    max-width: 90px;
+    color: #e06c6c;
+}
+.container-bienestar-list ul .list-item2{
+    background-color: #FFC6FF;
+}
+.list-item-container .heart-icon{
+    max-width: 90px;
+    color: #d872d8;
+}
+.container-bienestar-list ul .list-item3{
+    background-color: #FDFFB6;
+}
+.list-item-container .user-group-icon{
+    max-width: 90px;
+    color: #dade68;;
+}
+.container-bienestar-list ul .list-item4{
+    background-color: #A0C4FF;
+}
+.list-item-container .hand-raised-icon{
+    max-width: 90px;
+    color: #7197d4;;
+}
+.container-bienestar-programas{
+    background-color: black;
+    color: white;
+    padding: 25px 15px;
+    border-radius: 0px 0px 10px 10px;
+}
+.container-bienestar-programas h4{
+    font-size: 1.15rem;
+    padding: 10px;
+}
+.container-bienestar-programas ul{
+    list-style: none;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.container-bienestar-programas ul .list-item1{
+    background-color:  #BDB2FF;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    justify-content: center;
+    max-width: 48%;
+}
+
+.container-bienestar-programas ul .list-item2{
+    background-color: #CAFFBF;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    justify-content: center;
+    max-width: 48%;
+}
+.container-bienestar-programas ul .list-item-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.container-bienestar-programas ul .list-item-container h5{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+.container-bienestar-programas ul .list-item-container .text-1{
+    font-size: 1.05rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.container-bienestar-programas ul .list-item-container .text-2{
+    font-size: 0.95rem;
+    text-align: center;
+}
+.container-bienestar-programas ul .list-item-container .contactos-list{
+    display: flex;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
+.container-bienestar-programas ul .list-item-container .list-1{
+    background-color: #6654cc;
+}
+.container-bienestar-programas ul .list-item-container .list-2{
+    background-color: #4CAF50;
+}

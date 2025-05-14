@@ -4,6 +4,7 @@ import InicioSesion from "../pages/InicioSesion/InicioSesion";
 import MainView from "../pages/MainView/MainView";
 import Registro from "../pages/Registro/Registro";
 import Matriculas from "../pages/Matriculas/Matriculas";
+import Bienestar from "../pages/Bienestar/Bienestar";
 
 export let enrutador = [
     {
@@ -12,7 +13,7 @@ export let enrutador = [
     },
     {
         path: "/Clases",
-        element: <Materias />
+        element: <RutaProtegida proteger={<Materias />}/>,
     },
     {
         path: "/",
@@ -24,6 +25,10 @@ export let enrutador = [
     },
     {
         path: "/matriculas",
-        element: <Matriculas/>
+        element: <RutaProtegida proteger={<Matriculas />}/>,
+    },
+    {
+        path: "/bienestar",
+        element: <RutaProtegida proteger={<Bienestar />}/>,
     }
 ]
