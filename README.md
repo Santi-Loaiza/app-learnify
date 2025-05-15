@@ -82,3 +82,58 @@ npm run back
 
 # 4. En una nueva terminal, inicia el frontend con Vite
 npm run dev
+```
+
+## 🧩 Modelo de datos (NoSQL)
+
+```bash
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "tipo_usuario": "administrador",
+      "nombre": "Santiago Loaiza Madrid",
+      "usuario": "admin1",
+      "contrasena": "admin1",
+      "datos_personales": {
+        "fecha_nacimiento": "21-01-2006",
+        "direccion": "calle 3 #41 63",
+        "telefono": "302 7982156"
+      }
+    }
+],
+  "materias": [
+    {
+      "nombre": "Matematicas",
+      "docente": "Miguel Angel Aristizabal",
+      "aula": "201",
+      "progreso": 25,
+      "color": "#FFADAD",
+      "imagen": "https://cdn.pixabay.com/photo/2016/11/29/01/16/abacus-1866497_1280.jpg",
+      "id": "fd06"
+    }
+],
+"matriculas": [
+    {
+      "id": "1",
+      "nombre": "Santiago",
+      "apellidos": "Loaiza Madrid",
+      "tipoIdentificacion": "Cedula de Ciudadania",
+      "correo": "santiagoloaizamadrid@gmail.com",
+      "identificacion": "1033180121",
+      "edad": 18,
+      "genero": "Masculino",
+      "curso": "11A",
+      "fechaMatricula": "2025-02-05"
+    },
+}
+```
+
+## 📫 Autores
+Desarrollado por:
+ - Santiago Loaiza Madrid CC. 1033180121
+ - Mariana Osorio Granado TI. 
+ - Juan Carlos Caro Muriel
+ - Ximena Martinez Soto
+
+📕📎 ¡Gracias por visitar nuestro proyecto!
