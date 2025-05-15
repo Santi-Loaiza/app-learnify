@@ -19,7 +19,7 @@ Ideal para los instituciones educativas que requieran un area administrativa y c
 - **React Router DOM** – Ruteo dinámico entre vistas   
 - **Fetch API** – Alternativa para peticiones HTTP  
 - **SweetAlert2** – Alertas modernas y estilizadas  
-- **Font Awesome** – Iconografía para una interfaz más visual  
+- **Heroicons** – Iconografía para una interfaz más visual  
 - **CSS** – Estilos personalizados  
 - **HTML** – Estructura base del proyecto
 
@@ -51,8 +51,8 @@ Ideal para los instituciones educativas que requieran un area administrativa y c
 
 ## 🔤 Tipografías
 
-- **Lato** – Títulos  
-- **Roboto** – Contenido general
+- **sans-serif** – Títulos  
+- **Lucida Grande** – Contenido general
 
 ---
 
@@ -76,6 +76,8 @@ cd app-learnify
 
 # 2. Instala las dependencias del frontend
 npm install
+  2.1. En caso de presentar errores por dependencias opcionales se elimina la carpeta de node_modules y package-lock.json, y se vuelve a ejecutar
+        npm install
 
 # 3. Inicia el servidor JSON (backend simulado)
 npm run back
@@ -131,8 +133,8 @@ npm run dev
 
 ## 📫 Autores
 Desarrollado por:
- - Santiago Loaiza Madrid CC. 1033180121
- - Mariana Osorio Granado TI. 
+ - Santiago Loaiza Madrid CC. 1033180121  correo: santiagoloaizamadrid@gmail.com
+ - Mariana Osorio Granado TI. 1034991183  correo: osoriomariana408@gmail.com 
  - Juan Carlos Caro Muriel
  - Ximena Martinez Soto
 
