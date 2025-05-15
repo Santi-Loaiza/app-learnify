@@ -1,7 +1,5 @@
 import '../MainContent/MainContent.css'
-import upArrowImageIcon from '/upArrowImageIcon.svg'
-import mindfullnessIcon from '/mindfullnessIcon.svg'
-import { ArrowTrendingUpIcon, BoltIcon, HandThumbUpIcon } from '@heroicons/react/24/outline'
+import { BoltIcon, HandThumbUpIcon } from '@heroicons/react/24/outline'
 const MainContent = () => {
     const usuario = JSON.parse(localStorage.getItem("usuario") || "null")
     return (
