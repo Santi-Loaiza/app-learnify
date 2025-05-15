@@ -22,7 +22,7 @@ const Materias = () => {
       <section className="main-container-content">
         <Header /> 
          <div className="materias-container">
-      <h1 className="titulo">CLASES</h1>
+      <h1 className="titulo">Clases</h1>
       <div className="grid-container">
         {
         materias?.map((materia) => {return(

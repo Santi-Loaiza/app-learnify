@@ -6,6 +6,7 @@ import Registro from "../pages/Registro/Registro";
 import Matriculas from "../pages/Matriculas/Matriculas";
 import Bienestar from "../pages/Bienestar/Bienestar";
 import Notas from "../pages/Notas/Notas";
+import Beneficios from "../pages/Beneficios/Beneficios";
 
 export let enrutador = [
     {
@@ -35,5 +36,9 @@ export let enrutador = [
     {
         path: "/notas",
         element: <RutaProtegida proteger={<Notas/>}/>
+    },
+    {
+        path: "/beneficios",
+        element: <RutaProtegida proteger={<Beneficios/>}/>
     }
 ]

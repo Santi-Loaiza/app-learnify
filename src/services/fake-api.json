@@ -83,61 +83,79 @@
         "direccion": "calle 1 # 53 40",
         "telefono": "3147173871"
       }
+    },
+    {
+      "id": "d2bd",
+      "tipoUsuario": "",
+      "nombre": "ximena martinez",
+      "usuario": "xiiimes",
+      "contrasena": "Xmz1011394261*.",
+      "datos_personales": {
+        "fecha_nacimiento": "2006-03-25",
+        "direccion": "cra 85 # 66 - 35",
+        "telefono": "3148038686"
+      }
     }
   ],
   "materias": [
-      {
-        "nombre": "Matematicas",
-        "docente": "Miguel Angel Aristizabal",
-        "aula": "201",
-        "progreso": 25,
-        "color": "#FFADAD",
-        "imagen": "https://cdn.pixabay.com/photo/2016/11/29/01/16/abacus-1866497_1280.jpg"
-      },
-      {
-        "nombre": "Lengua Castellana",
-        "docente": "Jorge Castillon",
-        "aula": "104",
-        "progreso": 50,
-        "color": "#dee08d",
-        "imagen": "https://cdn.pixabay.com/photo/2024/02/24/20/54/books-8594725_1280.jpg"
-      },
-      {
-        "nombre": "Sociales",
-        "docente": "Martha Cristina Lopez",
-        "aula": "203",
-        "progreso": 10,
-        "color": "#84c3e0",
-        "imagen": "https://cdn.pixabay.com/photo/2019/10/21/12/01/newspapers-4565916_1280.jpg"
-      },
-      {
-        "nombre": "Ingles",
-        "docente": "Marcela Marroquin",
-        "aula": "202",
-        "progreso": 75,
-        "color": "#BDB2FF",
-        "imagen": "https://cdn.pixabay.com/photo/2024/01/18/10/37/letter-tiles-8516698_1280.jpg"
-      },
-      {
-        "nombre": "Biologia",
-        "docente": "Doris Quinto",
-        "aula": "102",
-        "progreso": 20,
-        "color": "#a0c997",
-        "imagen": "https://cdn.pixabay.com/photo/2018/03/30/04/54/leaf-3274378_1280.jpg"
-      },
-      {
-        "nombre": "Filosofia",
-        "docente": "Andres Ciro",
-        "aula": "103",
-        "progreso": 5,
-        "color": "gray",
-        "imagen": "https://cdn.pixabay.com/photo/2015/05/07/15/48/bustos-756620_1280.jpg"
-      }
+    {
+      "nombre": "Matematicas",
+      "docente": "Miguel Angel Aristizabal",
+      "aula": "201",
+      "progreso": 25,
+      "color": "#FFADAD",
+      "imagen": "https://cdn.pixabay.com/photo/2016/11/29/01/16/abacus-1866497_1280.jpg",
+      "id": "fd06"
+    },
+    {
+      "nombre": "Lengua Castellana",
+      "docente": "Jorge Castillon",
+      "aula": "104",
+      "progreso": 50,
+      "color": "#dee08d",
+      "imagen": "https://cdn.pixabay.com/photo/2024/02/24/20/54/books-8594725_1280.jpg",
+      "id": "7753"
+    },
+    {
+      "nombre": "Sociales",
+      "docente": "Martha Cristina Lopez",
+      "aula": "203",
+      "progreso": 10,
+      "color": "#84c3e0",
+      "imagen": "https://cdn.pixabay.com/photo/2019/10/21/12/01/newspapers-4565916_1280.jpg",
+      "id": "5379"
+    },
+    {
+      "nombre": "Ingles",
+      "docente": "Marcela Marroquin",
+      "aula": "202",
+      "progreso": 75,
+      "color": "#BDB2FF",
+      "imagen": "https://cdn.pixabay.com/photo/2024/01/18/10/37/letter-tiles-8516698_1280.jpg",
+      "id": "fb3c"
+    },
+    {
+      "nombre": "Biologia",
+      "docente": "Doris Quinto",
+      "aula": "102",
+      "progreso": 20,
+      "color": "#a0c997",
+      "imagen": "https://cdn.pixabay.com/photo/2018/03/30/04/54/leaf-3274378_1280.jpg",
+      "id": "0022"
+    },
+    {
+      "nombre": "Filosofia",
+      "docente": "Andres Ciro",
+      "aula": "103",
+      "progreso": 5,
+      "color": "gray",
+      "imagen": "https://cdn.pixabay.com/photo/2015/05/07/15/48/bustos-756620_1280.jpg",
+      "id": "b4d8"
+    }
   ],
   "matriculas": [
     {
-      "id":"1",
+      "id": "1",
       "nombre": "Santiago",
       "apellidos": "Loaiza Madrid",
       "tipoIdentificacion": "Cedula de Ciudadania",
@@ -149,7 +167,7 @@
       "fechaMatricula": "2025-02-05"
     },
     {
-      "id":"12",
+      "id": "12",
       "nombre": "Juan Carlos",
       "apellidos": "Garcia Lopez",
       "tipoIdentificacion": "Tarjeta de Identidad",
@@ -161,7 +179,7 @@
       "fechaMatricula": "2024-02-05"
     },
     {
-      "id":"32",
+      "id": "32",
       "nombre": "Lorena",
       "apellidos": "Suarez Holguin",
       "tipoIdentificacion": "Tarjeta de Identidad",

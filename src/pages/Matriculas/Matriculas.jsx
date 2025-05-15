@@ -40,9 +40,22 @@ const Matriculas = () => {
         }
     }, [matriculas, idUsuario])
 
-    if (loading) return <div className="loading">Cargando...</div>
-    if (error) return <div className="error">Error: {error}</div>
-    if (!matricula) return <div className="no-data">No se encontró matrícula</div>
+    if (!matricula) return (
+        <div className="main-container">
+            <SideMenu />
+            <section className="main-container-content-matricula">
+                <Header />
+                <section className="matricula-info">
+                    <div className="no-data">
+                        <h1>No se encontro tu matricula {usuario.nombre}</h1>
+                    </div>
+                    <section>
+                        <h3>Al parecer no cuentas con una matricula registrada </h3>
+                    </section>
+                </section>
+            </section>
+            </div>
+    ) 
 
     return (
         <div className="main-container">
