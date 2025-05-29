@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import Header from "../../components/Header/Header"
 import SideMenu from "../../components/SideMenu/SideMenu"
 import './Matriculas.css'
+import { Link } from "react-router-dom"
 let apiMatriculas = "http://localhost:3000/matriculas"
 
 const Matriculas = () => {
@@ -34,7 +35,7 @@ const Matriculas = () => {
     useEffect(() => {
         if (matriculas.length > 0 && idUsuario) {
             const matriculaEncontrada = matriculas.find(
-                (mat) => mat.id == idUsuario
+                (mat) => mat.idEstudiante == idUsuario
             )
             setMatricula(matriculaEncontrada || null)
         }
@@ -52,7 +53,9 @@ const Matriculas = () => {
                     <section>
                         <h3>Al parecer no cuentas con una matricula registrada </h3>
                     </section>
+                    <Link to='/registro-matricula' className="boton-registrar-matricula">Registrar matricula</Link>
                 </section>
+                
             </section>
             </div>
     ) 
@@ -68,6 +71,10 @@ const Matriculas = () => {
                         <div className="detail-item">
                             <h4>Id de Matricula:</h4>
                             <p>{matricula.id || "No disponible"}</p>
+                        </div>
+                        <div className="detail-item">
+                            <h4>Id de Estudiante:</h4>
+                            <p>{matricula.idEstudiante || "No disponible"}</p>
                         </div>
                         <div className="detail-item">
                             <h4>Fecha de matricula</h4>

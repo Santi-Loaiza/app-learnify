@@ -1,0 +1,22 @@
+.main-container-form-matricula{
+    display: flex;
+    padding: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-icon-back-matricula{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.icon-back-matricula{
+    width: 35px;
+    color: black;
+}
+.form-matricula{
+    max-width: 450px;
+    padding: 20px;
+}

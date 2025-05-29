@@ -8,14 +8,14 @@ import '../Footer/Footer.css'
 const Footer = () => {
     return (
 
-        <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-logo">
+        <footer className="footer">
+        <div className="footer-container">
+            <div className="footer-logo">
                 <h2><a href=""><img src={Logo} alt="" /></a></h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </div>
     
-            <div class="footer-links">
+            <div className="footer-links">
                 <h3>Enlaces Rápidos</h3>
                 <ul>
                     <li><a href="#">Inicio</a></li>
@@ -25,9 +25,9 @@ const Footer = () => {
                 </ul>
             </div>
     
-            <div class="footer-social">
+            <div className="footer-social">
                 <h3>Síguenos</h3>
-                <div class="social-icons">
+                <div className="social-icons">
                     <a href="#"><img src={LogoFacebook} alt="" /></a>
                     <a href="#"><img src={LogoSnap} alt="" /></a>
                     <a href="#"><img src={Logoinsta} alt="" ></img></a>
@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
         </div>
     
-        <div class="footer-bottom">
+        <div className="footer-bottom">
             <p>© <span id="year"></span> LearnifyAPP - Todos los derechos reservados 2025 ®️</p>
         </div>
     

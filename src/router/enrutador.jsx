@@ -7,6 +7,7 @@ import Matriculas from "../pages/Matriculas/Matriculas";
 import Bienestar from "../pages/Bienestar/Bienestar";
 import Notas from "../pages/Notas/Notas";
 import Beneficios from "../pages/Beneficios/Beneficios";
+import RegistroMatricula from "../pages/RegistroMatricula/RegistroMatricula";
 
 export let enrutador = [
     {
@@ -40,5 +41,9 @@ export let enrutador = [
     {
         path: "/beneficios",
         element: <RutaProtegida proteger={<Beneficios/>}/>
+    },
+    {
+        path: "/registro-matricula",
+        element: <RutaProtegida proteger={<RegistroMatricula/>}/>
     }
 ]

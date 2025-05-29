@@ -19,7 +19,7 @@
       "usuario": "admin2",
       "contrasena": "admin2",
       "datos_personales": {
-        "fecha_nacimiento": "20-05-2005",
+        "fecha_nacimiento": "2005-05-20",
         "direccion": "calle 10C #40 53",
         "telefono": "312 5983146"
       }
@@ -95,6 +95,18 @@
         "direccion": "cra 85 # 66 - 35",
         "telefono": "3148038686"
       }
+    },
+    {
+      "id": "d4d1",
+      "tipoUsuario": "estudiante",
+      "nombre": "juan g",
+      "usuario": "juancho",
+      "contrasena": "12345",
+      "datos_personales": {
+        "fecha_nacimiento": "2011-06-08",
+        "direccion": "calle3",
+        "telefono": "3002"
+      }
     }
   ],
   "materias": [
@@ -155,7 +167,8 @@
   ],
   "matriculas": [
     {
-      "id": "1",
+      "idMatricula": "1",
+      "idEstudiante": "1",
       "nombre": "Santiago",
       "apellidos": "Loaiza Madrid",
       "tipoIdentificacion": "Cedula de Ciudadania",
@@ -164,10 +177,12 @@
       "edad": 18,
       "genero": "Masculino",
       "curso": "11A",
-      "fechaMatricula": "2025-02-05"
+      "fechaMatricula": "2025-02-05",
+      "id": "840e"
     },
     {
-      "id": "12",
+      "idMatricula": "12",
+      "idEstudiante": "12",
       "nombre": "Juan Carlos",
       "apellidos": "Garcia Lopez",
       "tipoIdentificacion": "Tarjeta de Identidad",
@@ -176,10 +191,12 @@
       "edad": 16,
       "genero": "Masculino",
       "curso": "11A",
-      "fechaMatricula": "2024-02-05"
+      "fechaMatricula": "2024-02-05",
+      "id": "6d59"
     },
     {
-      "id": "32",
+      "idMatricula": "32",
+      "idEstudiante": "32",
       "nombre": "Lorena",
       "apellidos": "Suarez Holguin",
       "tipoIdentificacion": "Tarjeta de Identidad",
@@ -188,7 +205,34 @@
       "edad": 17,
       "genero": "Masculino",
       "curso": "11C",
-      "fechaMatricula": "2025-02-05"
+      "fechaMatricula": "2025-02-05",
+      "id": "a1d0"
+    },
+    {
+      "id": "4f6e",
+      "idEstudiante": "2",
+      "nombre": "Ximena",
+      "apellidos": "Martinez Soto",
+      "tipoIdentificacion": "Cedula de Ciudadania",
+      "correo": "xime@gmail.com",
+      "identificacion": "100030349",
+      "edad": "20",
+      "genero": "Femenino",
+      "curso": "11b",
+      "fechaMatricula": "2025-05-23"
+    },
+    {
+      "id": "9d14",
+      "idEstudiante": "d4d1",
+      "nombre": "juan g",
+      "apellidos": "Aro",
+      "tipoIdentificacion": "Cedula de Ciudadania",
+      "correo": "aro@concentrix.com",
+      "identificacion": "23398",
+      "edad": "132",
+      "genero": "Femenino",
+      "curso": "Epidemiologia IV",
+      "fechaMatricula": "2025-05-29"
     }
   ]
 }
