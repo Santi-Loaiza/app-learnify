@@ -41,3 +41,55 @@ export function generarToken() {
     Math.random().toString(36).substring(2, 10)
   );
 }
+export function alertaConfirmacionEliminarUsuario(id, apiUsuarios, getUsuarios) {
+  Swal.fire({
+    title: "Está seguro?",
+    text: "No se puede reviertir la acción!",
+    icon: "warning",
+    showCancelButton: true,
+    confirmButtonColor: "#3085d6",
+    cancelButtonColor: "#d33",
+    confirmButtonText: "Si, Eliminar"
+  }).then((result) => {
+    if (result.isConfirmed) {
+      fetch(apiUsuarios + "/" + id, {
+        method: "DELETE"
+      }).then(() => {
+        getUsuarios()
+      }).catch((error) => {
+        console.log(error)
+      })
+      Swal.fire({
+        title: "Eliminado",
+        text: "El registro ha sido eliminado",
+        icon: "success"
+      });
+    }
+  });
+}
+export function alertaConfirmacionEliminarMateria(id, apiMaterias, getMaterias) {
+  Swal.fire({
+    title: "Está seguro?",
+    text: "No se puede reviertir la acción!",
+    icon: "warning",
+    showCancelButton: true,
+    confirmButtonColor: "#3085d6",
+    cancelButtonColor: "#d33",
+    confirmButtonText: "Si, Eliminar"
+  }).then((result) => {
+    if (result.isConfirmed) {
+      fetch(apiMaterias + "/" + id, {
+        method: "DELETE"
+      }).then(() => {
+        getMaterias()
+      }).catch((error) => {
+        console.log(error)
+      })
+      Swal.fire({
+        title: "Eliminado",
+        text: "El registro ha sido eliminado",
+        icon: "success"
+      });
+    }
+  });
+}

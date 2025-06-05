@@ -15,15 +15,15 @@ const SideMenu = () => {
     <div className="side-menu">
       <div className="menu-lateral">
         <ul>
-          <Link to="/clases"><li><button><span>Clases</span></button></li></Link> 
-          <Link to="/notas"><li><button><span>Notas</span></button></li></Link>
-          <Link to="/matriculas"><li><button><span>Matrícula</span></button></li></Link>
-          <Link to="/bienestar"><li><button><span>Bienestar</span></button></li></Link>
-          <Link to="/beneficios"><li><button><span>Beneficios</span></button></li></Link>
+          <Link to="/home/clases"><li><button><span>Clases</span></button></li></Link> 
+          <Link to="/home/notas"><li><button><span>Notas</span></button></li></Link>
+          <Link to="/home/matriculas"><li><button><span>Matrícula</span></button></li></Link>
+          <Link to="/home/bienestar"><li><button><span>Bienestar</span></button></li></Link>
+          <Link to="/home/beneficios"><li><button><span>Beneficios</span></button></li></Link>
           <button onClick={cerrarSesion} className='cerrar-sesion-button'><span>Cerrar sesion</span>
           </button>
         </ul>
-        <img src="./logo.png" alt="Logo" className="logo" />
+        <img src="/public/logo.png" alt="Logo" className="logo" />
       </div>
     </div>
   );

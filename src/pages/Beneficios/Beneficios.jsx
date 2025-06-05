@@ -5,10 +5,6 @@ import './Beneficios.css'
 
 const Beneficios = () => {
     return (
-        <section className="main-container">
-            <SideMenu />
-            <section className="main-container-content">
-                <Header />
                 <main className='main-container-beneficios'>
                     <div className='header-container'>
                         <h1>Beneficios</h1>
@@ -86,8 +82,6 @@ const Beneficios = () => {
                         </div>
                     </section>
                 </main>
-            </section>
-        </section>
     )
 }
 

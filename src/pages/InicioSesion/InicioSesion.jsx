@@ -41,7 +41,7 @@ const InicioSesion = () => {
         "Bienvenido/a " + buscarUsuario().nombre,
         "En breves segundos será redireccionado a la pagina principal",
         "success",
-        "/MainView"
+        "/home/inicio"
       );
       let horaInicio = new Date();
       console.log(horaInicio);

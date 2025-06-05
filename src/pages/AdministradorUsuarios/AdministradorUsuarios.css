@@ -1,0 +1,57 @@
+.main-container-administrador-usuarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    min-height: 80vh;
+}
+.main-container-administrador-usuarios h1 {
+    font-size: 1.8rem;
+}
+.container-table-usuarios{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.container-table-usuarios table{
+    width: 100%;
+    border-radius: 8px;
+    border-collapse: collapse;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.417);
+}
+.container-table-usuarios table thead{
+    background-color: #9BF6FF;
+}
+.container-table-usuarios table thead th{
+    padding: 10px;
+}
+.container-table-usuarios table tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+.container-table-usuarios table tbody td{
+    padding: 10px;
+}
+.editar-usuario-button,
+.eliminar-usuario-button{
+    background-color: #d6d6d6;
+    padding: 4px;
+    border-radius: 2px;
+    border: none;
+}
+.eliminar-usuario-button{
+    margin-left: 5px;
+}
+
+.editar-usuario-button:hover,
+.eliminar-usuario-button:hover{
+    background-color: #000000;
+    color: white;
+}

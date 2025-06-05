@@ -2,7 +2,7 @@
   "usuarios": [
     {
       "id": "1",
-      "tipo_usuario": "administrador",
+      "tipoUsuario": "administrador",
       "nombre": "Santiago Loaiza Madrid",
       "usuario": "admin1",
       "contrasena": "admin1",
@@ -49,30 +49,6 @@
       }
     },
     {
-      "id": "5",
-      "tipoUsuario": "estudiante",
-      "nombre": "Carlos Penagos",
-      "usuario": "estudiante1",
-      "contrasena": "estudiante1",
-      "datos_personales": {
-        "fecha_nacimiento": "20-06-2008",
-        "direccion": "calle 2 #11 43",
-        "telefono": "323 7482556"
-      }
-    },
-    {
-      "id": "f546",
-      "tipoUsuario": "estudiante",
-      "nombre": "Camilo Barrientos",
-      "usuario": "camibarrientos",
-      "contrasena": "cami123",
-      "datos_personales": {
-        "fecha_nacimiento": "2003-07-11",
-        "direccion": "calle 33 # 42 33",
-        "telefono": "307 7859568"
-      }
-    },
-    {
       "id": "941c",
       "tipoUsuario": "administrador",
       "nombre": "juan Carlos",
@@ -85,27 +61,27 @@
       }
     },
     {
-      "id": "d2bd",
-      "tipoUsuario": "",
-      "nombre": "ximena martinez",
-      "usuario": "xiiimes",
-      "contrasena": "Xmz1011394261*.",
+      "id": "acaf",
+      "tipoUsuario": "estudiante",
+      "nombre": "Carolina Jaramillo Lopez",
+      "usuario": "carolinda",
+      "contrasena": "caro123",
       "datos_personales": {
-        "fecha_nacimiento": "2006-03-25",
-        "direccion": "cra 85 # 66 - 35",
-        "telefono": "3148038686"
+        "fecha_nacimiento": "2005-06-16",
+        "direccion": "Calle 72C #21 30",
+        "telefono": "310 1234567"
       }
     },
     {
-      "id": "d4d1",
+      "id": "a373",
       "tipoUsuario": "estudiante",
-      "nombre": "juan g",
-      "usuario": "juancho",
-      "contrasena": "12345",
+      "nombre": "Maria Angel Restrepo",
+      "usuario": "marianguel12",
+      "contrasena": "marianguel12",
       "datos_personales": {
-        "fecha_nacimiento": "2011-06-08",
-        "direccion": "calle3",
-        "telefono": "3002"
+        "fecha_nacimiento": "2004-07-17",
+        "direccion": "Calle 32 # 51 47",
+        "telefono": "312 1234567"
       }
     }
   ],
@@ -233,6 +209,45 @@
       "genero": "Femenino",
       "curso": "Epidemiologia IV",
       "fechaMatricula": "2025-05-29"
+    },
+    {
+      "id": "252b",
+      "idEstudiante": "acaf",
+      "nombre": "Carolina Jaramillo Lopez",
+      "apellidos": "",
+      "tipoIdentificacion": "",
+      "correo": "",
+      "identificacion": "",
+      "edad": "19",
+      "genero": "",
+      "curso": "",
+      "fechaMatricula": ""
+    },
+    {
+      "id": "82df",
+      "idEstudiante": "acaf",
+      "nombre": "Carolina Jaramillo Lopez",
+      "apellidos": "",
+      "tipoIdentificacion": "",
+      "correo": "",
+      "identificacion": "",
+      "edad": "19",
+      "genero": "",
+      "curso": "",
+      "fechaMatricula": ""
+    },
+    {
+      "id": "20f7",
+      "idEstudiante": "a373",
+      "nombre": "Maria Angel",
+      "apellidos": "Restrepo Molina",
+      "tipoIdentificacion": "Cedula de Ciudadania",
+      "correo": "marianguel2021@gmail.com",
+      "identificacion": "1138652189",
+      "edad": "20",
+      "genero": "Femenino",
+      "curso": "CLEI 1",
+      "fechaMatricula": "2025-02-13"
     }
   ]
 }

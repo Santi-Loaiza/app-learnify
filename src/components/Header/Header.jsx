@@ -4,7 +4,7 @@ import logo from '/LearnifyLogos/Ilustración_sin_título.png'
 const Header = () => {
     return (
         <header>
-            <Link to="/MainView">
+            <Link to="/home/inicio">
                 <div className="logo">
                     <img src={logo} alt="LogoLearnify" />
                 </div>

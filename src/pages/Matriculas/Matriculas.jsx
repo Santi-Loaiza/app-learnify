@@ -42,10 +42,6 @@ const Matriculas = () => {
     }, [matriculas, idUsuario])
 
     if (!matricula) return (
-        <div className="main-container">
-            <SideMenu />
-            <section className="main-container-content-matricula">
-                <Header />
                 <section className="matricula-info">
                     <div className="no-data">
                         <h1>No se encontro tu matricula {usuario.nombre}</h1>
@@ -53,18 +49,11 @@ const Matriculas = () => {
                     <section>
                         <h3>Al parecer no cuentas con una matricula registrada </h3>
                     </section>
-                    <Link to='/registro-matricula' className="boton-registrar-matricula">Registrar matricula</Link>
+                    <Link to='/home/registro-matricula' className="boton-registrar-matricula">Registrar matricula</Link>
                 </section>
-                
-            </section>
-            </div>
     ) 
 
     return (
-        <div className="main-container">
-            <SideMenu />
-            <section className="main-container-content-matricula">
-                <Header />
                 <section className="matricula-info">
                     <h1 className="matricula-main-title">Información de matrícula</h1>
                     <div className="matricula-details">
@@ -119,8 +108,6 @@ const Matriculas = () => {
                         </div>
                     </div>
                 </section>
-            </section>
-        </div>
     )
 }
 

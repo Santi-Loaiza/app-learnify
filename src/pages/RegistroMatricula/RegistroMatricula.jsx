@@ -42,7 +42,8 @@ const RegistroMatricula = () => {
 
     //Declaracion de estados
     const [getIdEstudiante, setIdEstudiante] = useState("")
-    const [getNombre, setNombre] = useState(nombre)
+    const [getNombreStorage, setNombreStorage] = useState(nombre)
+    const [getNombre, setNombre] = useState("")
     const [getApellidos, setApellidos] = useState("")
     const [getTipoIdentificacion, setTipoIdentificacion] = useState("")
     const [getIdentificacion, setIdentificacion] = useState("")
@@ -57,6 +58,8 @@ const RegistroMatricula = () => {
             setIdEstudiante(idUsuario);
         }
     }, [idUsuario]);
+
+    const primerNombre = getNombreStorage.trim().split(" ")[0];
     function registrarMatricula() {
         let nuevaMatricula = {
             idEstudiante: getIdEstudiante,
@@ -74,16 +77,18 @@ const RegistroMatricula = () => {
             method: "POST",
             body: JSON.stringify(nuevaMatricula),
         });
-        alertaRedireccion(navigate, "La matricula de " + getNombre + " ha sido registrada", "Se redireccionara a la informacion de su matricula", "succes", "/matriculas")
+        alertaRedireccion(navigate, "La matricula de " + getNombre + " ha sido registrada", "Se redireccionara a la informacion de su matricula", "succes", "/home/matriculas")
     }
+
+    useEffect(() => {
+    if (getNombreStorage) {
+        setNombre(getNombreStorage); // si quieres poner solo el primer nombre, usa: getNombreStorage.split(" ")[0]
+    }
+}, [getNombreStorage]);
     return (
-        <div className="main-container">
-            <SideMenu />
-            <section className="main-container-content-matricula">
-                <Header />
                 <section className="main-container-form-matricula">
                     <div className="container-icon-back-matricula">
-                        <Link to="/matriculas">
+                        <Link to="/home/matriculas">
                             <ChevronLeftIcon className="icon-back-matricula" />
                         </Link>
                     </div>
@@ -148,8 +153,6 @@ const RegistroMatricula = () => {
                         </form>
                     </div>
                 </section>
-            </section>
-        </div>
     )
 }
 

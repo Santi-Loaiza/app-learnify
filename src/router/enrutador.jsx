@@ -8,15 +8,47 @@ import Bienestar from "../pages/Bienestar/Bienestar";
 import Notas from "../pages/Notas/Notas";
 import Beneficios from "../pages/Beneficios/Beneficios";
 import RegistroMatricula from "../pages/RegistroMatricula/RegistroMatricula";
+import AdministradorUsuarios from "../pages/AdministradorUsuarios/AdministradorUsuarios";
+import Home from "../pages/Home/Home";
 
 export let enrutador = [
     {
-        path: "/MainView",
+        path: "/Home/",
         element: <RutaProtegida proteger={<MainView />}/>,
-    },
-    {
-        path: "/Clases",
-        element: <RutaProtegida proteger={<Materias />}/>,
+        children: [
+            {
+                path: "/Home/Inicio",
+                element: <Home/>
+            },
+            {
+                path: "clases",
+                element: <Materias/>
+            },
+            {
+                path: "notas",
+                element: <Notas/>
+            },
+            {
+                path: "matriculas",
+                element: <Matriculas/>
+            },
+            {
+                path: "bienestar",
+                element: <Bienestar/>
+            },
+            {
+                path: "beneficios",
+                element: <Beneficios />
+            },
+            {
+                path: "registro-matricula",
+                element: <RegistroMatricula />
+            },
+            {
+                path: "administrador-usuarios",
+                element: <AdministradorUsuarios/>
+            }
+            ]
     },
     {
         path: "/",
@@ -25,25 +57,5 @@ export let enrutador = [
     {
         path: "/registro",
         element: <Registro />
-    },
-    {
-        path: "/matriculas",
-        element: <RutaProtegida proteger={<Matriculas />}/>,
-    },
-    {
-        path: "/bienestar",
-        element: <RutaProtegida proteger={<Bienestar />}/>,
-    },
-    {
-        path: "/notas",
-        element: <RutaProtegida proteger={<Notas/>}/>
-    },
-    {
-        path: "/beneficios",
-        element: <RutaProtegida proteger={<Beneficios/>}/>
-    },
-    {
-        path: "/registro-matricula",
-        element: <RutaProtegida proteger={<RegistroMatricula/>}/>
     }
 ]

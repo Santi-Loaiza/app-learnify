@@ -5,10 +5,6 @@ import './Bienestar.css'
 
 const Bienestar = () => {
     return (
-        <section className="main-container">
-            <SideMenu />
-            <section className="main-container-content">
-                <Header />
                 <div className="main-container-bienestar">
                     <h1 className="bienestar-main-title">Bienestar institucional</h1>
                     <section className="main-container-info">
@@ -73,8 +69,6 @@ const Bienestar = () => {
                         </section>
                     </section>
                 </div>
-            </section>
-        </section>
     )
 }
 

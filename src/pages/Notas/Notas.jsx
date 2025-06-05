@@ -38,10 +38,6 @@ const notas = [
 
 const Notas = () => {
   return (
-    <section className="main-container">
-      <SideMenu />
-      <section className="main-container-content">
-        <Header />
         <div className="notas-container">
           <h1 className="titulo">Mis Notas</h1>
           <table className="tabla-notas">
@@ -68,8 +64,6 @@ const Notas = () => {
             </tbody>
           </table>
         </div>
-      </section>
-    </section>
   );
 };
 

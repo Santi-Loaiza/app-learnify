@@ -4,7 +4,8 @@
     justify-content: center;
     width: 100%;
     align-items: center;
-    margin-top: 20px;
+    background-color: #f3f4f6;
+    padding-bottom: 10px;
 }
 .main-content .carrusel{
     width: 98%;
@@ -84,4 +85,25 @@
 .hand-thump-up-icon{
     color: #5393fb;
     min-width: 100px;
+}
+.container-button-administrar-usuarios{
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+.button-administrar-usuarios{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 25px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+.button-administrar-usuarios:hover{
+    background-color: #CAFFBF;
+    color: black;
 }
