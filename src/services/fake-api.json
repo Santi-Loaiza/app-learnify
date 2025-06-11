@@ -71,6 +71,18 @@
         "direccion": "calle",
         "telefono": "123"
       }
+    },
+    {
+      "id": "5600",
+      "tipoUsuario": "estudiante",
+      "nombre": "Santiago Loaiza",
+      "usuario": "usuariosanti",
+      "contrasena": "contraseñasanti",
+      "datos_personales": {
+        "fecha_nacimiento": "2005-03-02",
+        "direccion": "Calle 123",
+        "telefono": "310 3245298"
+      }
     }
   ],
   "materias": [
@@ -127,6 +139,24 @@
       "color": "gray",
       "imagen": "https://cdn.pixabay.com/photo/2015/05/07/15/48/bustos-756620_1280.jpg",
       "id": "b4d8"
+    },
+    {
+      "id": "e12c",
+      "nombre": "Epidemiologia 2",
+      "docente": "Juan Manuel Aristizabal Lopez",
+      "aula": "415",
+      "color": "#e9aa63",
+      "progreso": 0,
+      "imagen": "https://cdn.pixabay.com/photo/2020/03/16/16/29/virus-4937553_1280.jpg"
+    },
+    {
+      "id": "befc",
+      "nombre": "Catedra de Paz",
+      "docente": "Tatiana Gomez Palacios",
+      "aula": "302",
+      "color": "#e2d54b",
+      "progreso": 0,
+      "imagen": "https://cdn.pixabay.com/photo/2023/06/28/10/53/world-8094131_1280.png"
     }
   ],
   "matriculas": [

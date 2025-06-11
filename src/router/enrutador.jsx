@@ -12,6 +12,7 @@ import AdministradorUsuarios from "../pages/AdministradorUsuarios/AdministradorU
 import Home from "../pages/Home/Home";
 import EditarUsuario from "../pages/AdministradorUsuarios/EditarUsuario/EditarUsuario";
 import EditarMateria from "../pages/Clases/EditarMateria/EditarMateria";
+import CrearMateria from "../pages/Clases/CrearMateria/CrearMateria";
 
 export let enrutador = [
     {
@@ -57,6 +58,10 @@ export let enrutador = [
             {
                 path: "clases/editar/:id",
                 element: <EditarMateria />
+            },
+            {
+                path: "clases/crear",
+                element: <CrearMateria />
             }
             ]
     },

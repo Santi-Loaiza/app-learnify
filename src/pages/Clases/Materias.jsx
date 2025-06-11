@@ -27,6 +27,9 @@ const Materias = () => {
   if (usuario.tipoUsuario == "administrador") return (
         <div className="materias-container">
           <h1 className="administrador-materias-title">Gestiona las clases y materias</h1>
+          <div className="container-button-agregar-materia">
+            <Link to="/home/clases/crear"> <button className="button-agregar-materia">+ Agregar Materia</button> </Link>
+          </div>
             <section className="container-table-materias">
                         <table>
                             <thead>

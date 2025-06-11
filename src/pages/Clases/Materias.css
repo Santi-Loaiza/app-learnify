@@ -149,3 +149,24 @@
   .link-editar-materia{
     text-decoration: none;
   }
+
+  .container-button-agregar-materia{
+    padding-top: 10px;
+    width: 95%;
+    display: flex;
+    justify-content: end;
+  }
+
+  .container-button-agregar-materia .button-agregar-materia{
+    background-color: #d1a4f3;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    transition: .1s;
+  }
+  .container-button-agregar-materia .button-agregar-materia:hover{
+    background-color: #c9a1eced;
+    transform: scale(1.07);
+    box-shadow: 0px 0px 10px #564b6381;
+  }

@@ -1,0 +1,22 @@
+ .crear-materia-container .form-box {
+    margin: 10px;
+    max-width: 500px;
+    background: #f1f7fe;
+    overflow: hidden;
+    border-radius: 16px;
+    color: #010101;
+  }
+ .crear-materia-container .form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 24px 24px;
+    gap: 16px;
+    text-align: center;
+  }
+.crear-materia-container .input-pixabay{
+    min-height: 100px;
+    gap: 10px;
+}
