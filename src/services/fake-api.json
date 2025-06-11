@@ -26,7 +26,7 @@
     },
     {
       "id": "3",
-      "tipoUsuario": "administrador",
+      "tipoUsuario": "docente",
       "nombre": "Mariana Osorio Granado",
       "usuario": "admin3",
       "contrasena": "admin3",
@@ -50,7 +50,7 @@
     },
     {
       "id": "a373",
-      "tipoUsuario": "estudiante",
+      "tipoUsuario": "docente",
       "nombre": "Maria Angel Restrepo",
       "usuario": "marianguel12",
       "contrasena": "marianguel12",
@@ -115,7 +115,7 @@
       "docente": "Doris Quinto",
       "aula": "102",
       "progreso": 20,
-      "color": "#a0c997",
+      "color": "#9cc9aa",
       "imagen": "https://cdn.pixabay.com/photo/2018/03/30/04/54/leaf-3274378_1280.jpg",
       "id": "0022"
     },

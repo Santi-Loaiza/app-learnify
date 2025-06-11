@@ -50,7 +50,7 @@ const EditarUsuario = () => {
             .then(() => {
                 alertaRedireccion(
                     navigate,
-                    "Envío editado correctamente",
+                    "Usuario editado correctamente",
                     "En breves segundos será redireccionado",
                     "success",
                     "/home/administrador-usuarios"

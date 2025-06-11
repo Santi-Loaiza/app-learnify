@@ -145,3 +145,7 @@
   .container-table-materias table thead{
     background-color: #f0f0f0;
   }
+
+  .link-editar-materia{
+    text-decoration: none;
+  }

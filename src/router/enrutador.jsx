@@ -11,6 +11,7 @@ import RegistroMatricula from "../pages/RegistroMatricula/RegistroMatricula";
 import AdministradorUsuarios from "../pages/AdministradorUsuarios/AdministradorUsuarios";
 import Home from "../pages/Home/Home";
 import EditarUsuario from "../pages/AdministradorUsuarios/EditarUsuario/EditarUsuario";
+import EditarMateria from "../pages/Clases/EditarMateria/EditarMateria";
 
 export let enrutador = [
     {
@@ -52,6 +53,10 @@ export let enrutador = [
             {
                 path: "administrador-usuarios/editar/:id",
                 element: <EditarUsuario />
+            },
+            {
+                path: "clases/editar/:id",
+                element: <EditarMateria />
             }
             ]
     },
