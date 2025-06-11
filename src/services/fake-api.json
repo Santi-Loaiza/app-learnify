@@ -49,30 +49,6 @@
       }
     },
     {
-      "id": "941c",
-      "tipoUsuario": "administrador",
-      "nombre": "juan Carlos",
-      "usuario": "Juanca1925",
-      "contrasena": "teamobb",
-      "datos_personales": {
-        "fecha_nacimiento": "1999-09-25",
-        "direccion": "calle 1 # 53 40",
-        "telefono": "3147173871"
-      }
-    },
-    {
-      "id": "acaf",
-      "tipoUsuario": "estudiante",
-      "nombre": "Carolina Jaramillo Lopez",
-      "usuario": "carolinda",
-      "contrasena": "caro123",
-      "datos_personales": {
-        "fecha_nacimiento": "2005-06-16",
-        "direccion": "Calle 72C #21 30",
-        "telefono": "310 1234567"
-      }
-    },
-    {
       "id": "a373",
       "tipoUsuario": "estudiante",
       "nombre": "Maria Angel Restrepo",
@@ -82,6 +58,18 @@
         "fecha_nacimiento": "2004-07-17",
         "direccion": "Calle 32 # 51 47",
         "telefono": "312 1234567"
+      }
+    },
+    {
+      "id": "05f2",
+      "tipoUsuario": "estudiante",
+      "nombre": "Ximena",
+      "usuario": "Xim",
+      "contrasena": "123",
+      "datos_personales": {
+        "fecha_nacimiento": "2025-07-09",
+        "direccion": "calle",
+        "telefono": "123"
       }
     }
   ],
@@ -219,7 +207,7 @@
       "correo": "",
       "identificacion": "",
       "edad": "19",
-      "genero": "",
+      "genero": "Femenino",
       "curso": "",
       "fechaMatricula": ""
     },
@@ -232,7 +220,7 @@
       "correo": "",
       "identificacion": "",
       "edad": "19",
-      "genero": "",
+      "genero": "Femenino",
       "curso": "",
       "fechaMatricula": ""
     },
@@ -248,6 +236,58 @@
       "genero": "Femenino",
       "curso": "CLEI 1",
       "fechaMatricula": "2025-02-13"
+    },
+    {
+      "id": "bedd",
+      "idEstudiante": "4",
+      "nombre": "Juan Carlos Caro Muriel",
+      "apellidos": "",
+      "tipoIdentificacion": "",
+      "correo": "",
+      "identificacion": "",
+      "edad": "26",
+      "genero": "Masculino",
+      "curso": "",
+      "fechaMatricula": "2025-06-18"
+    },
+    {
+      "id": "1164",
+      "idEstudiante": "4f2e",
+      "nombre": "juancho",
+      "apellidos": "",
+      "tipoIdentificacion": "",
+      "correo": "",
+      "identificacion": "",
+      "edad": "",
+      "genero": "Prefiero no decirlo",
+      "curso": "",
+      "fechaMatricula": ""
+    },
+    {
+      "id": "c578",
+      "idEstudiante": "05f2",
+      "nombre": "Ximena",
+      "apellidos": "",
+      "tipoIdentificacion": "",
+      "correo": "",
+      "identificacion": "",
+      "edad": "",
+      "genero": "Femenino",
+      "curso": "",
+      "fechaMatricula": ""
+    },
+    {
+      "id": "fb32",
+      "idEstudiante": "b3bf",
+      "nombre": "Juanjo",
+      "apellidos": "",
+      "tipoIdentificacion": "",
+      "correo": "",
+      "identificacion": "",
+      "edad": "",
+      "genero": "Prefiero no decirlo",
+      "curso": "",
+      "fechaMatricula": ""
     }
   ]
 }
