@@ -7,8 +7,8 @@
       "usuario": "admin1",
       "contrasena": "admin1",
       "datos_personales": {
-        "fecha_nacimiento": "21-01-2006",
-        "direccion": "calle 3 #41 63",
+        "fecha_nacimiento": "2006-06-21",
+        "direccion": "calle 32 #41 63",
         "telefono": "302 7982156"
       }
     },
@@ -31,7 +31,7 @@
       "usuario": "admin3",
       "contrasena": "admin3",
       "datos_personales": {
-        "fecha_nacimiento": "11-11-2007",
+        "fecha_nacimiento": "2007-06-08",
         "direccion": "calle 7B #20 62",
         "telefono": "301 7983154"
       }
@@ -43,9 +43,9 @@
       "usuario": "admin4",
       "contrasena": "admin4",
       "datos_personales": {
-        "fecha_nacimiento": "01-04-1999",
-        "direccion": "calle 21 #31 53",
-        "telefono": "318 7282146"
+        "fecha_nacimiento": "1999-09-25",
+        "direccion": "calle 21 #31 51",
+        "telefono": "318 7282142"
       }
     },
     {

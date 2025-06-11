@@ -10,6 +10,7 @@ import Beneficios from "../pages/Beneficios/Beneficios";
 import RegistroMatricula from "../pages/RegistroMatricula/RegistroMatricula";
 import AdministradorUsuarios from "../pages/AdministradorUsuarios/AdministradorUsuarios";
 import Home from "../pages/Home/Home";
+import EditarUsuario from "../pages/AdministradorUsuarios/EditarUsuario/EditarUsuario";
 
 export let enrutador = [
     {
@@ -47,6 +48,10 @@ export let enrutador = [
             {
                 path: "administrador-usuarios",
                 element: <AdministradorUsuarios/>
+            },
+            {
+                path: "administrador-usuarios/editar/:id",
+                element: <EditarUsuario />
             }
             ]
     },

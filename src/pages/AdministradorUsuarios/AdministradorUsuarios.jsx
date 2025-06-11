@@ -3,6 +3,7 @@ import Header from "../../components/Header/Header"
 import SideMenu from "../../components/SideMenu/SideMenu"
 import './AdministradorUsuarios.css'
 import { alertaConfirmacionEliminarUsuario } from "../../helpers/funciones";
+import { Link } from "react-router-dom";
 let apiUsuarios = "http://localhost:3000/usuarios";
 
 const AdministradorUsuarios = () => {
@@ -57,7 +58,7 @@ const AdministradorUsuarios = () => {
                                             <td>{usuario.datos_personales.direccion}</td>
                                             <td>{usuario.datos_personales.telefono}</td>
                                             <td>
-                                                <button className="editar-usuario-button" onClick={() => editarUsuario(usuario)}>Editar</button>{" "}
+                                                <Link to={"/Home/administrador-usuarios/editar/" + usuario.id}> <button className="editar-usuario-button">Editar</button></Link>{" "}
                                                 <button className="eliminar-usuario-button" onClick={() => eliminarUsuario(usuario.id)}>Eliminar</button>
                                             </td>
                                         </tr>
