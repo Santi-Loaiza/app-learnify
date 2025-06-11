@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Header from "../../components/Header/Header"
 import SideMenu from "../../components/SideMenu/SideMenu"
 import './AdministradorUsuarios.css'
+import GraficoNotasTest2 from "../../components/GraficosNotas/GraficoNotasTest2";
 import { alertaConfirmacionEliminarUsuario } from "../../helpers/funciones";
 import { Link } from "react-router-dom";
 let apiUsuarios = "http://localhost:3000/usuarios";
@@ -67,8 +68,13 @@ const AdministradorUsuarios = () => {
                             </tbody>
                         </table>
                     </section>
+                     <h1>Graficas de Python</h1>
+                        <GraficoNotasTest2 />
                 </main>
+                
     )
+
+     
 }
 
 export default AdministradorUsuarios
